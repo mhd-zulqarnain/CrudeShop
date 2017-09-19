@@ -34,7 +34,7 @@ public class ProductViewHolder extends RecyclerView.ViewHolder {
                     path=imgList.get(i).getPath();
                 }
             }
-        Picasso.with(context).load("https://laindain.000webhostapp.com/visitors//images/"+path).into(pImage);
+        Picasso.with(context).load("http://10.0.3.2/trade/visitors/images/"+path).into(pImage);
         pTitle.setText(products.getProductName());
     }
 }
